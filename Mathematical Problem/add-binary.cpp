@@ -13,7 +13,6 @@ public:
             s = char(c % 2 + '0') + s;
             c /= 2;
         }
-        
         return s;
     }
 };

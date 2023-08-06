@@ -6,6 +6,5 @@ class Solution {
 			int ans=0;
 			for(int n:nums) ans+=n-m;
 			return ans;
-
 		}
 	};
